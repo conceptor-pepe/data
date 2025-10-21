@@ -1,0 +1,558 @@
+# 这个 viminfo 文件是由 Vim 8.2 所产生。
+# 如果要自行修改请特别小心！
+
+# Viminfo version
+|1,4
+
+# 此文件建立时 'encoding' 的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最后 搜索模式:
+~MSle0~/own_win
+
+# 命令行 历史记录 (从新到旧):
+:wq
+|2,0,1761013790,,"wq"
+:q
+|2,0,1761009684,,"q"
+:q!
+|2,0,1760170560,,"q!"
+:set fileencoding=gbk
+|2,0,1760170548,,"set fileencoding=gbk"
+::set fileencoding=gbk
+|2,0,1760170538,,":set fileencoding=gbk"
+:wq!
+|2,0,1755329613,,"wq!"
+:set number
+|2,0,1745049865,,"set number"
+
+# 查找字符串 历史记录 (从新到旧):
+?/\vlk$
+|2,1,1760923418,47,"\\vlk$"
+?/own_win
+|2,1,1760923329,47,"own_win"
+?/draw_blended
+|2,1,1760241916,47,"draw_blended"
+
+# 表达式 历史记录 (从新到旧):
+
+# 输入行 历史记录 (从新到旧):
+
+# 输入行 历史记录 (从新到旧):
+
+# 寄存器:
+"0	LINE	0
+	SQL_DSN=user:password@tcp(127.0.0.1:3306)/dbname?parseTime=true
+|3,0,0,1,1,0,1760086320,"SQL_DSN=user:password@tcp(127.0.0.1:3306)/dbname?parseTime=true"
+""1	LINE	0
+	  own_window_hints = 'undecorated,above,sticky,skip_taskbar,skip_pager',
+|3,1,1,1,1,0,1760923451,"  own_window_hints = 'undecorated,above,sticky,skip_taskbar,skip_pager',"
+"2	LINE	0
+	echo "4) 运行所有测试"
+|3,0,2,1,1,0,1760767244,"echo \"4) 运行所有测试\""
+"3	LINE	0
+	echo "3) SDK测试 (使用阿里云SDK，暂未实现)"
+|3,0,3,1,1,0,1760767241,"echo \"3) SDK测试 (使用阿里云SDK，暂未实现)\""
+"4	CHAR	0
+	    # 使用jq解析JSON配置文件
+	    if ! command -v jq &> /dev/null; then
+	        echo -e "${YELLOW}📦 安装jq工具用于解析配置文件...${NC}"
+	        if command -v apt-get &> /dev/null; then
+	            sudo apt-get update && sudo apt-get install -y jq
+	        elif command -v yum &> /dev/null; then
+	            sudo yum install -y jq
+	        elif command -v brew &> /dev/null; then
+	            brew install jq
+	        else
+	            echo -e "${RED}❌ 无法安装jq，请手动安装jq工具${NC}"
+	            exit 1
+	        fi
+	    fi
+	 
+|3,0,4,0,15,0,1760693346,"    # 使用jq解析JSON配置文件","    if ! command -v jq &> /dev/null; then","        echo -e \"${YELLOW}📦 安装jq工具用于解析配置文件...${NC}\"","        if command -v apt-get &> /dev/null; then","            sudo apt-get update && sudo apt-get install -y jq","        elif command -v yum &> /dev/null; then","            sudo yum install -y jq","        elif command -v brew &> /dev/null; then",>29
+|<"            brew install jq","        else","            echo -e \"${RED}❌ 无法安装jq，请手动安装jq工具${NC}\"","            exit 1","        fi","    fi"," "
+"5	LINE	0
+	${offset 0}${voffset 3}${font Abel:size=14}${time %A %d %B}
+|3,0,5,1,1,0,1760245607,"${offset 0}${voffset 3}${font Abel:size=14}${time %A %d %B}"
+"6	LINE	0
+	${offset 0}${voffset 0}${font Inter:size=45}${time %H:%M}${font}
+|3,0,6,1,1,0,1760245607,"${offset 0}${voffset 0}${font Inter:size=45}${time %H:%M}${font}"
+"7	LINE	0
+	${offset 0}${voffset 0}${font Inter:size=45}${time %H:%M}${font}
+|3,0,7,1,1,0,1760245517,"${offset 0}${voffset 0}${font Inter:size=45}${time %H:%M}${font}"
+"8	LINE	0
+	set fileencodings=ucs-bom,utf-8,gbk,gb2312,big5,latin1
+|3,0,8,1,1,0,1760244304,"set fileencodings=ucs-bom,utf-8,gbk,gb2312,big5,latin1"
+"9	LINE	0
+	set encoding=utf-8
+|3,0,9,1,1,0,1760244303,"set encoding=utf-8"
+"-	CHAR	0
+	0
+|3,0,36,0,1,0,1760923135,"0"
+
+# 文件标记:
+'0  6  1  ~/xprofile
+|4,48,6,1,1761013790,"~/xprofile"
+'1  150  0  ~/.bashrc
+|4,49,150,0,1761009684,"~/.bashrc"
+'2  1  0  ~/project/brain-xai/new-api/.git/COMMIT_EDITMSG
+|4,50,1,0,1760951360,"~/project/brain-xai/new-api/.git/COMMIT_EDITMSG"
+'3  48  1  ~/.config/conky/terminal/terminal.conf
+|4,51,48,1,1760923455,"~/.config/conky/terminal/terminal.conf"
+'4  49  71  ~/.config/conky/terminal/terminal.conf
+|4,52,49,71,1760923427,"~/.config/conky/terminal/terminal.conf"
+'5  49  71  ~/.config/conky/terminal/terminal.conf
+|4,53,49,71,1760923427,"~/.config/conky/terminal/terminal.conf"
+'6  49  1  ~/.config/conky/terminal/terminal.conf
+|4,54,49,1,1760923365,"~/.config/conky/terminal/terminal.conf"
+'7  49  1  ~/.config/conky/terminal/terminal.conf
+|4,55,49,1,1760923365,"~/.config/conky/terminal/terminal.conf"
+'8  95  1  ~/.config/conky/terminal/terminal.conf
+|4,56,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+'9  94  1  ~/.config/conky/terminal/terminal.conf
+|4,57,94,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+
+# 跳转列表 (从新到旧):
+-'  6  1  ~/xprofile
+|4,39,6,1,1761013790,"~/xprofile"
+-'  1  0  ~/xprofile
+|4,39,1,0,1761013773,"~/xprofile"
+-'  150  0  ~/.bashrc
+|4,39,150,0,1761009684,"~/.bashrc"
+-'  150  0  ~/.bashrc
+|4,39,150,0,1761009684,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1761009682,"~/.bashrc"
+-'  1  0  ~/.bashrc
+|4,39,1,0,1761009682,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1761009666,"~/.bashrc"
+-'  120  0  ~/.bashrc
+|4,39,120,0,1761009666,"~/.bashrc"
+-'  1  0  ~/project/brain-xai/new-api/.git/COMMIT_EDITMSG
+|4,39,1,0,1760951360,"~/project/brain-xai/new-api/.git/COMMIT_EDITMSG"
+-'  1  0  ~/project/brain-xai/new-api/.git/COMMIT_EDITMSG
+|4,39,1,0,1760951360,"~/project/brain-xai/new-api/.git/COMMIT_EDITMSG"
+-'  1  0  ~/project/brain-xai/new-api/.git/COMMIT_EDITMSG
+|4,39,1,0,1760951360,"~/project/brain-xai/new-api/.git/COMMIT_EDITMSG"
+-'  1  0  ~/project/brain-xai/new-api/.git/COMMIT_EDITMSG
+|4,39,1,0,1760951360,"~/project/brain-xai/new-api/.git/COMMIT_EDITMSG"
+-'  48  1  ~/.config/conky/terminal/terminal.conf
+|4,39,48,1,1760923455,"~/.config/conky/terminal/terminal.conf"
+-'  48  1  ~/.config/conky/terminal/terminal.conf
+|4,39,48,1,1760923455,"~/.config/conky/terminal/terminal.conf"
+-'  48  1  ~/.config/conky/terminal/terminal.conf
+|4,39,48,1,1760923455,"~/.config/conky/terminal/terminal.conf"
+-'  48  1  ~/.config/conky/terminal/terminal.conf
+|4,39,48,1,1760923455,"~/.config/conky/terminal/terminal.conf"
+-'  48  1  ~/.config/conky/terminal/terminal.conf
+|4,39,48,1,1760923455,"~/.config/conky/terminal/terminal.conf"
+-'  48  1  ~/.config/conky/terminal/terminal.conf
+|4,39,48,1,1760923455,"~/.config/conky/terminal/terminal.conf"
+-'  48  1  ~/.config/conky/terminal/terminal.conf
+|4,39,48,1,1760923455,"~/.config/conky/terminal/terminal.conf"
+-'  48  1  ~/.config/conky/terminal/terminal.conf
+|4,39,48,1,1760923455,"~/.config/conky/terminal/terminal.conf"
+-'  49  2  ~/.config/conky/terminal/terminal.conf
+|4,39,49,2,1760923448,"~/.config/conky/terminal/terminal.conf"
+-'  49  2  ~/.config/conky/terminal/terminal.conf
+|4,39,49,2,1760923448,"~/.config/conky/terminal/terminal.conf"
+-'  49  2  ~/.config/conky/terminal/terminal.conf
+|4,39,49,2,1760923448,"~/.config/conky/terminal/terminal.conf"
+-'  49  2  ~/.config/conky/terminal/terminal.conf
+|4,39,49,2,1760923448,"~/.config/conky/terminal/terminal.conf"
+-'  49  2  ~/.config/conky/terminal/terminal.conf
+|4,39,49,2,1760923448,"~/.config/conky/terminal/terminal.conf"
+-'  49  2  ~/.config/conky/terminal/terminal.conf
+|4,39,49,2,1760923448,"~/.config/conky/terminal/terminal.conf"
+-'  49  2  ~/.config/conky/terminal/terminal.conf
+|4,39,49,2,1760923448,"~/.config/conky/terminal/terminal.conf"
+-'  49  2  ~/.config/conky/terminal/terminal.conf
+|4,39,49,2,1760923448,"~/.config/conky/terminal/terminal.conf"
+-'  49  71  ~/.config/conky/terminal/terminal.conf
+|4,39,49,71,1760923427,"~/.config/conky/terminal/terminal.conf"
+-'  49  71  ~/.config/conky/terminal/terminal.conf
+|4,39,49,71,1760923427,"~/.config/conky/terminal/terminal.conf"
+-'  49  71  ~/.config/conky/terminal/terminal.conf
+|4,39,49,71,1760923427,"~/.config/conky/terminal/terminal.conf"
+-'  49  71  ~/.config/conky/terminal/terminal.conf
+|4,39,49,71,1760923427,"~/.config/conky/terminal/terminal.conf"
+-'  49  71  ~/.config/conky/terminal/terminal.conf
+|4,39,49,71,1760923427,"~/.config/conky/terminal/terminal.conf"
+-'  49  71  ~/.config/conky/terminal/terminal.conf
+|4,39,49,71,1760923427,"~/.config/conky/terminal/terminal.conf"
+-'  49  71  ~/.config/conky/terminal/terminal.conf
+|4,39,49,71,1760923427,"~/.config/conky/terminal/terminal.conf"
+-'  49  71  ~/.config/conky/terminal/terminal.conf
+|4,39,49,71,1760923427,"~/.config/conky/terminal/terminal.conf"
+-'  49  1  ~/.config/conky/terminal/terminal.conf
+|4,39,49,1,1760923365,"~/.config/conky/terminal/terminal.conf"
+-'  49  1  ~/.config/conky/terminal/terminal.conf
+|4,39,49,1,1760923365,"~/.config/conky/terminal/terminal.conf"
+-'  49  1  ~/.config/conky/terminal/terminal.conf
+|4,39,49,1,1760923365,"~/.config/conky/terminal/terminal.conf"
+-'  49  1  ~/.config/conky/terminal/terminal.conf
+|4,39,49,1,1760923365,"~/.config/conky/terminal/terminal.conf"
+-'  49  1  ~/.config/conky/terminal/terminal.conf
+|4,39,49,1,1760923365,"~/.config/conky/terminal/terminal.conf"
+-'  49  1  ~/.config/conky/terminal/terminal.conf
+|4,39,49,1,1760923365,"~/.config/conky/terminal/terminal.conf"
+-'  49  1  ~/.config/conky/terminal/terminal.conf
+|4,39,49,1,1760923365,"~/.config/conky/terminal/terminal.conf"
+-'  49  1  ~/.config/conky/terminal/terminal.conf
+|4,39,49,1,1760923365,"~/.config/conky/terminal/terminal.conf"
+-'  95  0  ~/.config/conky/terminal/terminal.conf
+|4,39,95,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  95  0  ~/.config/conky/terminal/terminal.conf
+|4,39,95,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  95  0  ~/.config/conky/terminal/terminal.conf
+|4,39,95,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  95  0  ~/.config/conky/terminal/terminal.conf
+|4,39,95,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  95  0  ~/.config/conky/terminal/terminal.conf
+|4,39,95,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  95  0  ~/.config/conky/terminal/terminal.conf
+|4,39,95,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  95  0  ~/.config/conky/terminal/terminal.conf
+|4,39,95,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  95  0  ~/.config/conky/terminal/terminal.conf
+|4,39,95,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  96  0  ~/.config/conky/terminal/terminal.conf
+|4,39,96,0,1760923309,"~/.config/conky/terminal/terminal.conf"
+-'  94  1  ~/.config/conky/terminal/terminal.conf
+|4,39,94,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  94  1  ~/.config/conky/terminal/terminal.conf
+|4,39,94,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  94  1  ~/.config/conky/terminal/terminal.conf
+|4,39,94,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  94  1  ~/.config/conky/terminal/terminal.conf
+|4,39,94,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  94  1  ~/.config/conky/terminal/terminal.conf
+|4,39,94,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  94  1  ~/.config/conky/terminal/terminal.conf
+|4,39,94,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  94  1  ~/.config/conky/terminal/terminal.conf
+|4,39,94,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  94  1  ~/.config/conky/terminal/terminal.conf
+|4,39,94,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  95  1  ~/.config/conky/terminal/terminal.conf
+|4,39,95,1,1760923138,"~/.config/conky/terminal/terminal.conf"
+-'  1  0  ~/.config/conky/terminal/terminal.conf
+|4,39,1,0,1760923135,"~/.config/conky/terminal/terminal.conf"
+-'  1  0  ~/.config/conky/terminal/terminal.conf
+|4,39,1,0,1760923135,"~/.config/conky/terminal/terminal.conf"
+-'  1  0  ~/.config/conky/terminal/terminal.conf
+|4,39,1,0,1760923135,"~/.config/conky/terminal/terminal.conf"
+-'  1  0  ~/.config/conky/terminal/terminal.conf
+|4,39,1,0,1760923135,"~/.config/conky/terminal/terminal.conf"
+-'  1  0  ~/.config/conky/terminal/terminal.conf
+|4,39,1,0,1760923135,"~/.config/conky/terminal/terminal.conf"
+-'  1  0  ~/.config/conky/terminal/terminal.conf
+|4,39,1,0,1760923135,"~/.config/conky/terminal/terminal.conf"
+-'  1  0  ~/.config/conky/terminal/terminal.conf
+|4,39,1,0,1760923135,"~/.config/conky/terminal/terminal.conf"
+-'  1  0  ~/.config/conky/terminal/terminal.conf
+|4,39,1,0,1760923135,"~/.config/conky/terminal/terminal.conf"
+
+# 文件内的标记历史记录 (从新到旧):
+
+> ~/xprofile
+	*	1761013789	0
+	"	6	1
+	^	6	2
+	.	6	1
+	+	6	1
+
+> ~/.bashrc
+	*	1761009682	0
+	"	150	0
+	^	120	21
+	.	120	21
+	+	119	22
+	+	121	0
+	+	120	21
+
+> ~/project/brain-xai/new-api/.git/COMMIT_EDITMSG
+	*	1760951359	0
+	"	1	0
+
+> ~/.config/conky/terminal/terminal.conf
+	*	1760923454	0
+	"	48	1
+	^	48	2
+	.	48	1
+	+	62	36
+	+	1	16
+	+	95	1
+	+	48	0
+	+	49	0
+	+	48	1
+
+> ~/.config/conky/terminal/start.sh
+	*	1760922601	0
+	"	9	46
+	^	9	47
+	.	10	0
+	+	10	0
+
+> ~/.config/conky/terminal.conf
+	*	1760922482	0
+	"	1	0
+
+> ~/project/brain-xai/new-api/test/qwen-chat-test/dashscope/stream_test.py
+	*	1760778162	0
+	"	1	0
+
+> ~/project/brain-xai/new-api/test/qwen-image-test/run-tests.sh
+	*	1760767246	0
+	"	48	1
+	.	48	0
+	+	48	0
+
+> ~/project/brain-xai/new-api/test/qwen-image-test/run-
+	*	1760767227	0
+	"	1	0
+
+> ~/project/brain-xai/new-api/test/xunfei/test.sh
+	*	1760693381	0
+	"	187	4
+	.	27	0
+	+	27	0
+
+> /tmp/iflow-edit-en6B92/buffer.txt
+	*	1760607192	0
+	"	1	0
+
+> ~/project/telgbotMonitor/.git/COMMIT_EDITMSG
+	*	1760274225	0
+	"	1	0
+
+> ~/.config/conky/SystemInfo-A1/System-Info.conf
+	*	1760258402	0
+	"	19	11
+	^	19	12
+	.	19	11
+	+	45	30
+	+	17	23
+	+	19	10
+	+	18	10
+	+	19	10
+	+	18	10
+	+	20	19
+	+	21	20
+	+	19	11
+
+> ~/.config/conky/SystemInfo-A1/System-Info
+	*	1760258342	0
+	"	1	0
+
+> ~/.config/conky/SystemInfo-A1/start.sh
+	*	1760258205	0
+	"	1	0
+
+> ~/.config/conky/Mimosa/start.sh
+	*	1760257724	0
+	"	1	0
+	^	1	1
+	.	1	0
+	+	1	0
+
+> ~/.config/conky/Mimosa/scripts/weather-v4.0.sh
+	*	1760245991	0
+	"	1	0
+	^	8	15
+	.	8	14
+	+	8	14
+
+> ~/.config/conky/Mimosa/scripts/ssid
+	*	1760245946	0
+	"	1	0
+
+> ~/.config/conky/Mimosa/Mimosa.conf
+	*	1760245706	0
+	"	90	19
+	^	90	20
+	.	90	19
+	+	18	23
+	+	48	30
+	+	72	0
+	+	73	65
+	+	72	0
+	+	48	30
+	+	18	23
+	+	73	65
+	+	74	8
+	+	75	9
+	+	76	9
+	+	74	8
+	+	77	9
+	+	78	9
+	+	83	11
+	+	84	10
+	+	85	9
+	+	88	20
+	+	90	19
+
+> ~/Downloads/conky/Mimosa/Mimosa.conf
+	*	1760244843	0
+	"	82	0
+
+> ~/Downloads/conky/Mimosa/scripts/weather-v4.0.sh
+	*	1760244782	0
+	"	1	0
+
+> ~/.vimrc
+	*	1760244305	0
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/project/new-api/logs/oneapi-20251011162009.log
+	*	1760170841	0
+	"	24	0
+
+> ~/project/new-api/logs/oneapi-20251011112941.log
+	*	1760170678	0
+	"	2563	0
+
+> ~/.viminfo
+	*	1760170655	0
+	"	205	0
+
+> ~/project/new-api/oneapi-20251010231436.log
+	*	1760170365	0
+	"	1	0
+
+> ~/project/new-api/oneapi-20251011112941.log
+	*	1760170358	0
+	"	1	0
+
+> ~/project/new-api/.env
+	*	1760148677	0
+	"	19	0
+	^	16	1
+	.	16	0
+	+	15	0
+	+	16	0
+
+> ~/project/new-api/.git/COMMIT_EDITMSG
+	*	1760145668	0
+	"	1	0
+
+> ~/Downloads/iat-js-demo/dist/processor.worker.js
+	*	1760074668	0
+	"	1	0
+
+> ~/Downloads/iat-js-demo/example/iat/index.js
+	*	1760074651	0
+	"	191	0
+
+> ~/project/cryp-web/server/app.py
+	*	1760022552	0
+	"	51	0
+
+> ~/Downloads/obsidian/obsidian.desktop
+	*	1760022504	0
+	"	1	0
+
+> ~/Miniforge3-Linux-x86_64.sh
+	*	1757135967	0
+	"	1	0
+
+> ~/abc
+	*	1757135952	0
+	"	1	0
+
+> ~/.vim/vimrc
+	*	1757135947	0
+	"	1	0
+
+> /etc/hosts
+	*	1755329616	0
+	"	15	26
+	^	15	27
+	.	15	26
+	+	10	0
+	+	15	26
+
+> ~/project/cryp-web/server/requirements.txt
+	*	1755325198	0
+	"	6	17
+	^	6	18
+	.	6	17
+	+	6	17
+
+> ~/.ssh/config
+	*	1745151444	0
+	"	1	0
+	^	4	10
+	.	1	0
+	+	4	9
+	+	1	0
+
+> ~/.bash
+	*	1745048993	0
+	"	1	0
